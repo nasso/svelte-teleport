@@ -6,10 +6,10 @@ A Svelte component to teleport elements across the DOM.
 
 ```svelte
 <script>
-	import { Portal } from 'svelte-teleport';
+  import { Portal } from 'svelte-teleport';
 
-	let portal_a;
-	let portal_b;
+  let portal_a;
+  let portal_b;
 </script>
 
 <h1>Example</h1>
