@@ -4,6 +4,8 @@ A Svelte component to teleport elements across the DOM.
 
 ## Example usage
 
+You can also [try it out on the REPL](https://svelte.dev/repl/76df852a8ae748ed95b91ed1cf683a3c?version=3.28.0).
+
 ```svelte
 <script>
   import { Portal } from 'svelte-teleport';
