@@ -1,0 +1,39 @@
+{
+  "name": "svelte-teleport",
+  "svelte": "src/index.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "description": "A Svelte component to teleport elements across the DOM",
+  "version": "0.1.0",
+  "author": "nasso",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "rollup": "^2.0.0",
+    "rollup-plugin-svelte": "^6.0.0",
+    "svelte": "^3.0.0"
+  },
+  "keywords": [
+    "svelte",
+    "svelte.js",
+    "sveltejs",
+    "component",
+    "portal",
+    "teleport"
+  ],
+  "files": [
+    "src",
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/nasso/svelte-teleport/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nasso/svelte-teleport"
+  }
+}
